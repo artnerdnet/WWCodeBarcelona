@@ -8,7 +8,7 @@ Pull Request, Flow Control, Merge conflicts, commits, stashes, repositories, ...
 
 ## What we will do 👩‍💻:
 - What is Github and why is useful?
-- Basics of Github
+- Basics of Git
   `clone, merge, push, pull fetch`
 - Git branches
 - Git Rebase
