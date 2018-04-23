@@ -25,6 +25,8 @@ If you want to do a Fetch + Rebase instead of Fetch + Merge you can still use pu
 Record your local changes to the repository. It stores this changes with an index and a log message the user provides.
 
   - `git commit -m "Log explaining the changes"` Automatically commits the staged or added files with the message between "".
+  - `git commit -a` Adds the current tracked files and starts the commit on terminal so you can enter your log
+  - `git commit Filename.extension` Adds one file and commits it
 
 If you want to learn how to write good commit messages you should read [this post](https://chris.beams.io/posts/git-commit/). Also in the [documentation for Git-Commit](https://git-scm.com/docs/git-commit) you will find all possible commands for commit or you can run `git commit --help` on terminal to get them.
 
@@ -43,5 +45,13 @@ Some of the most used add files commands for commits. It is recommended to a lot
   - `git add Filename.extension` you can also just add all the changes to a particular file or folder
 
 You can see all the different options of `git add` in [the documentation](https://git-scm.com/docs/git-add) or by running `git add -h` || `git add -help` on your terminal.
+
+### Remove files
+
+If you added/staged a file that you do not want it to be part of your commit you can run `git rm FileName.extension` and it will be removed from the tree
+
+### Reset
+
+### Amends
 
 ## Push
