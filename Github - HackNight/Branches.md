@@ -8,7 +8,7 @@ That is because it will not know which version of the changes to choose. If your
 
 That is not a good workflow. Branches exist to solve this problem.
 
-Before you start working on an assigment you pull the latest from master and use that content to create your own branch to do all your work.
+Before you start working on an assignment you pull the latest from master and use that content to create your own branch to do all your work.
 
 ## New Branch
 
